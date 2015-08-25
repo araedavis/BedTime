@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>BedTime</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100,700,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="main-header">
+      <h1>BedTime</h1>
+    </header>
+    <div class="main-content">
+      <h2>What time do you want to wake up?</h2>
+
+      <form action="index.html" id="wakeup" method="post">
+        <select name="hours" id="hours" class="dropdown">
+          <option value="null">Hour</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+
+        <select name="minutes" id="minutes">
+          <option value="null">Minutes</option>
+          <option value="00">00</option>
+          <option value="30">30</option>
+        </select>
+
+        <select name="am_pm" id="am_pm">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+
+        <input type="submit" id="submit">
+
+      </form>
+      <div id="bedtime">
+      </div>
+      <div id="secondary-content">
+        <p>These times are when you should <strong>fall asleep</strong>. It takes the average person 7-15 minutes to fall asleep from the time they get into bed and close their eyes. Take this into account when going to bed! </p>
+      </div>
+    </div>
+
+
+    <footer class="main-footer">
+
+      <!--<a href="https://www.facebook.com/allison.davis.1806"><img src="https://dl.dropboxusercontent.com/s/nskwzsi1dzxs8af/fb_yellow%20copy.png?dl=0" alt="facebook"></a>
+      <a href="https://twitter.com/SkeeveHolt"><img src="https://dl.dropboxusercontent.com/s/gqgb4x5phleg6b0/twitter_yellow_copy.png?dl=0" alt="twitter"></a> -->
+      <p>&copy; 2015 Allison Davis</p>
+    </footer>
+  </div>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="../app.js"></script>
+</body>
+
+</html>
